@@ -20,8 +20,7 @@ h1 {
     background-color: antiquewhite;
     border: solid 2px #212427;
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    
     
 }
 
@@ -36,11 +35,11 @@ h1 {
 }
 #filho2{
     order: 3;
-    margin-left: 160px;
+    align-self: flex-end;
 }
 #filho3{
     order: 2;
-    margin-left: 80px;
+    align-self: center;
 }
 
 
